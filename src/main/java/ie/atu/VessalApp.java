@@ -4,7 +4,7 @@ package ie.atu;
 // then press Enter. You can now see whitespace characters in your code.
 public class VessalApp {
     public static void main(String[] args) {
-        Ship ship1 = new Ship("SSship","year",150);
+        Ship ship1 = new Ship("SSship","2000",150);
         System.out.println(ship1.vesselDetails());
 
         Ferry ferry1= new Ferry("SSship","2000",150,200);
