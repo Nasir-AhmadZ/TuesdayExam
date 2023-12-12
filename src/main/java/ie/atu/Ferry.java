@@ -25,13 +25,8 @@ public class Ferry extends Ship {
 
     public String vesselDetails() {
         return "Ferry{" +
-                "maxPass=" + maxPass + " Name:"+super.toString()+
-                '}';
-    }
-    /*@Override
-    public String toString() {
-        return "Ferry{" +
                 "maxPass=" + maxPass + " Name:"+super.getShipName()+
                 '}';
-    }*/
+    }
+
 }

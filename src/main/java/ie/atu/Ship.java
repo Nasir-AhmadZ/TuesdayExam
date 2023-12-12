@@ -48,9 +48,5 @@ public class Ship {
                 ", numCrew=" + numCrew +
                 '}';
     }
-    @Override
-    public String toString() {
-        return
-                "shipName='" + shipName + '\'';
-    }
+
 }

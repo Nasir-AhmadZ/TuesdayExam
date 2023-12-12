@@ -28,10 +28,5 @@ public class Trawler extends Ship{
                 "cargoCap=" + cargoCap + " Name:"+super.getShipName()+
                 '}';
     }
-    /*@Override
-    public String toString() {
-        return "Trawler{" +
-                "cargoCap=" + cargoCap +" Name:"+super.getShipName()+
-                '}';
-    }*/
+
 }
